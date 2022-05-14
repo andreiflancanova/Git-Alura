@@ -1,0 +1,13 @@
+package Aula1105_POO;
+
+public class A_11_05_POO1 
+{
+	//Declaração de atributos de Classe
+	//(Para atributos, uma boa prática é colocar um atributo por linha)
+	
+	private String NomeProprietario;
+	private String Modelo;
+	private String Placa;
+	private int Ano;
+	
+}

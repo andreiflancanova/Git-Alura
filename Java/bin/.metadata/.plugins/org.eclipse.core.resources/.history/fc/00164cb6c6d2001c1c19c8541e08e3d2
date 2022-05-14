@@ -1,0 +1,35 @@
+package Ex_01_Interface;
+
+public class BaseFigura 
+{
+	protected double caLado1;
+	protected double caLado2;
+	protected String caNome;
+	protected String caNomeClasse;
+	
+	BaseFigura(double pLado1, double pLado2, String pNome)
+	{//Tem na Interface
+		this.caLado1=pLado1;
+		this.caLado2=pLado2;
+		this.caNome=pNome;
+	}
+	
+	public double getArea()
+	{//Tem na Interface
+		return caLado1*caLado2;
+	}
+	
+	public double getPerimetro()
+	{//Tem na Interface
+		return (caLado1+caLado2)*2.0;
+	}
+	
+	public String getNome()
+	{
+		
+	}
+	
+	
+	
+	
+}

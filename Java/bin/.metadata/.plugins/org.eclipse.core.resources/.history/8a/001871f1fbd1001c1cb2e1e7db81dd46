@@ -1,0 +1,22 @@
+package Aula1205;
+
+public class Ex_02_Pessoa 
+{
+	private String caNome;
+	private String caEndereco;
+	private String caCPF;
+	private int caTelefone;
+	private int caIdade;
+	
+	//Método Construtor
+	public Ex_02_Pessoa(String pNome,String pEndereco,String pCPF,int pTelefone,int pIdade)
+	{
+		super();
+		this.caNome=pNome;
+		this.caEndereco=pEndereco;
+		this.caCPF=pCPF;
+		this.caTelefone=pTelefone;
+		this.caIdade=pIdade;
+		
+	}
+}

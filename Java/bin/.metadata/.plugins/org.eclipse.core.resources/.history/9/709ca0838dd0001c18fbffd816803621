@@ -1,0 +1,38 @@
+package Lista1005_Array;
+
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Random;
+
+public class Q03_Matriz_Lista_10_05 
+{
+
+	public static void main(String[] args) 
+	{
+	/*
+	 	3- Leia uma matriz 3 x 3, conte e escreva quantos valores maiores que 10 ela possui
+	 */
+		// Classe Scanner para Leitura de Dados
+		Scanner input =new Scanner(System.in);
+		
+		//Classe Random para Valores Aleatórios
+		Random R=new Random();
+			
+			
+		// Declaração de Variáveis
+			//Matriz M 3 x 3
+			int i,j;
+			int L=3,C=3;
+			int [][] M=new int[3][3];
+			
+			for (i=0;i<L;i++)
+			{
+				for (j=0;j<C;j++)
+				{
+					M[i][j]=R.nextInt(100);
+				}
+			}
+			System.out.print(Arrays.toString(M));
+	}
+
+}

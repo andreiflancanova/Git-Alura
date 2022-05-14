@@ -1,0 +1,13 @@
+package Aula1105_POO;
+
+public class A_11_05_POO2 
+{
+	public static void main(String[] args)
+	{
+		//Instanciando um objeto da Classe A_11_05_POO1
+		A_11_05_POO1 input01= new A_11_05_POO1("Andrei Lançanova","BMW","IGC9D48",2023);
+		input01.ImprimirInfo();
+		
+		
+	}
+}

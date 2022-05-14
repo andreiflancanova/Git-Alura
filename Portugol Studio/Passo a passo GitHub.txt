@@ -1,0 +1,46 @@
+Passo a passo para upar para o GitHub
+1º) Clonar o Repositório
+
+git clone "URL do Repositório"
+
+2º) Acessar Repositório pelo CMD
+
+cd "Nome do Repositório (igual está no GitHub)
+
+3º) Verificar se acessou
+
+git status
+
+4º) Copiar os arquivos para a pasta do Repositório dentro do Windows
+
+xcopy /E /I "Caminho de Origem" "Caminho de Destino"
+
+5º) Criar nova Branch para implementar alterações:
+
+git checkout -b "Nome da Nova Branch" (CRIAR NOVA)
+git checkout BranchExistente 
+
+6º) Adicionar os arquivos para o próximo Commit
+
+git add .
+
+7º) Verificar se acessou a nova Branch
+git status
+
+8º) Commitar as alterações:
+git commit -m "Comentário sobre esta branch"
+
+8º) Upar as alterações
+git push origin [Nome da Branch ou Main]
+
+9º) Se eu quiser passar as alterações da Branch para a Main:
+
+   git chechout BranchOndeEstáCorreto
+
+   git checkout main //Passar para a principal
+
+   git merge BranchOndeEstáCorreto //Passar as alterações
+
+   git commit -m "Versão Atualizada"
+
+   git push origin main

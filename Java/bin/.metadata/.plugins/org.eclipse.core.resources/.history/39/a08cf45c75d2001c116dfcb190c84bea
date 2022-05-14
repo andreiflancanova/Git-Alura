@@ -1,0 +1,35 @@
+package Lista1205;
+
+public class Ex_01_Controle 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("\n****************************************");
+		System.out.println("\nCONTROLE DE CÃES - GENERATION");
+		
+		Ex_01_Cachorro[] Lista01=new Ex_01_Cachorro[2];
+		Lista01[0]=new Ex_01_Cachorro("Trakina","12","Auuuu Auuuu","Sim");
+		Lista01[1]=new Ex_01_Cachorro("Lobinha","8","Au Au","Sim");
+				
+		//For it
+		for(Ex_01_Cachorro Roda:Lista01)
+		{
+			Roda.ImprimirInfo();
+			System.out.println("----------------------------------------");
+		}
+
+		System.out.println("\n****************************************");
+		System.out.println("\nCONTROLE DE EQUINOS - GENERATION");
+		Ex_01_Cavalo[] Lista02=new Ex_01_Cavalo[2];
+		Lista02[0]=new Ex_01_Cavalo("Princesa","5","Riiiiin","Sim");
+		Lista02[1]=new Ex_01_Cavalo("Alazão","4","Rin Riiin","Sim");
+				
+		//For it
+		for(Ex_01_Cavalo Roda:Lista02)
+		{
+			Roda.ImprimirInfo();
+		}
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package Aula1305;
+
+public class Ex_01_Fixo extends Telefone
+{
+	public Fixo()
+	{
+		super("Telefone Fixo");
+	}
+	
+	public void Ring(int pNumToques)
+	{
+		for(int i=0,i<pNumToques;i++)
+		{
+			System.out.println("\nTrrrriiiiiiim...Trrrriiiiiiim...");
+		}
+	}
+	
+	public void Dial(String pNumeroTelefone)
+	{
+		System.out.println("\nDiscando "+pNumeroTelefone);
+	}
+}

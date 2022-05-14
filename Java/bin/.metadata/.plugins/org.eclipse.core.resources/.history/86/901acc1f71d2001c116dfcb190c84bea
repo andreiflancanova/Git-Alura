@@ -1,0 +1,22 @@
+package Lista1205;
+
+public class Ex_01_Preguica extends Ex_01_Animal
+{
+	//Atributos de Sub-Classe
+	private String caSubirArvore;
+	
+	//Método Construtor
+	public Ex_01_Preguica(String pNome,String pIdade,String pSom,String pSubirArvore)
+	{
+		super(pNome,pIdade,pSom);
+		this.caSubirArvore=pSubirArvore;
+	}
+	
+	public void ImprimirInfo()
+	{
+		System.out.println("\nNome do Cavalo: "+getCaNome());
+		System.out.println("\nIdade do Cavalo: "+getCaIdade());
+		System.out.println("\nSom do Cavalo: "+getCaSom());
+		System.out.println("\nCorre muito? "+caSubirArvore);
+	}
+}

@@ -1,0 +1,10 @@
+package Lista1105_POO_01;
+
+public class Q01_Cliente {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

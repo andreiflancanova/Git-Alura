@@ -1,0 +1,9 @@
+package Lista1205;
+
+public class Ex_01_Cachorro extends Ex_01_Animal
+{
+	//Atributos de Sub-Classe
+	private String caCorrer;
+	
+	
+}

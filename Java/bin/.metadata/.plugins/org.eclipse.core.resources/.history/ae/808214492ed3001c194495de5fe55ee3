@@ -1,0 +1,68 @@
+package Lista1305;
+
+public class Ex_01_Controle 
+{
+	public static void main(String[] args) 
+	{
+/*
+		//Cachorro
+		Ex_01_Cachorro[] Lista01=new Ex_01_Cachorro[2];
+		
+		Lista01[0]=new Ex_01_Cachorro("Trakina","12","Devagar");
+		Lista01[1]=new Ex_01_Cachorro("Lobinha","8","Rápido");
+				
+			//For it
+		for(Ex_01_Cachorro Roda:Lista01)
+		{
+			Roda.ImprimirInfo();
+			System.out.println("----------------------------------------");
+		}
+
+		//Cavalos
+		Ex_01_Cavalo[] Lista02=new Ex_01_Cavalo[2];
+		Lista02[0]=new Ex_01_Cavalo("Princesa","5","Muito rápido");
+		Lista02[1]=new Ex_01_Cavalo("Alazão","4","Rápido");
+				
+		//For it
+		for(Ex_01_Cavalo Roda:Lista02)
+		{
+			Roda.ImprimirInfo();
+			System.out.println("----------------------------------------");	
+		}
+		//Preguiças				
+				Ex_01_Preguica[] Lista03=new Ex_01_Preguica[2];
+				Lista03[0]=new Ex_01_Preguica("Jerusa","20","Altas");
+				Lista03[1]=new Ex_01_Preguica("Julio","40","Médias");
+						
+				//For it
+				for(Ex_01_Preguica Roda:Lista03)
+				{
+					Roda.ImprimirInfo();
+					System.out.println("----------------------------------------");	
+				}
+*/				
+				Ex_01_Cachorro Cachorro01=new Ex_01_Cachorro("Trakina","12","Devagar");
+				Ex_01_Cavalo Cavalo01=new Ex_01_Cavalo("Princesa","5","Muito rápido");
+				Ex_01_Preguica Preguica01=new Ex_01_Preguica("Jerusa","20","Altas");
+				
+				
+				Ex_01_Animal Animal01=null;
+				
+				int n= (int)(Math.random()*3.0);
+				System.out.println("\nNúmero Sorteado foi: "+n);
+				
+				switch(n)
+				{
+				case 0: Animal01=Cachorro01;break;
+				case 1: Animal01=Cavalo01;break;
+				case 2: Animal01=Preguica01;break;
+				default: System.out.println("\nErro Inesperado");
+				}
+				
+				Animal01.ImprimirInfo();
+				Animal01.Som();
+				
+				
+	}
+
+}
